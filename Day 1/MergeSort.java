@@ -84,8 +84,7 @@ public class MergeSort {
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> unsortedAL = new ArrayList<Integer>();
         while (input.hasNextLine()) {
-            int n = Integer.parseInt(input.next());
-            unsortedAL.add(n);
+            unsortedAL.add(Integer.parseInt(input.nextLine()));
         }
         int[] unsorted = new int[unsortedAL.size()];
         for (int i = 0; i < unsorted.length; i++) {

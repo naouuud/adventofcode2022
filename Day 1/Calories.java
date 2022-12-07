@@ -21,7 +21,7 @@ public class Calories {
         int[] elves = new int[elvesAL.size()];
         for (int i = 0; i < elves.length; i++) {
             elves[i] = elvesAL.get(i);
-            StdOut.println("Elf " + i + ": " + elves[i]);
+            StdOut.println(elves[i]);
         }
     }
 }
